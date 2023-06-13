@@ -26,3 +26,13 @@ import sys
 
 n = int(sys.stdin.readline())
 data = [sys.stdin.readline().strip() for i in range(n)]
+
+
+줄바꿈 없이 출력
+print("Hello World ", end="")
+
+sys를 사용시 줄바꿈 없이 사용
+import sys
+
+sys.stdout.write("Hello World ")
+sys.stdout.write("Welcome to Entity01 Tutorials")
