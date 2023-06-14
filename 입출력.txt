@@ -36,3 +36,17 @@ import sys
 
 sys.stdout.write("Hello World ")
 sys.stdout.write("Welcome to Entity01 Tutorials")
+
+공백(white space) 제거
+text = '   this is gold   '
+print('[' + text.rstrip() + ']')
+print('[' + text.lstrip() + ']')
+print('[' + text.strip() + ']')
+
+-------------------------------------------
+# result
+[   this is gold]
+[this is gold   ]
+[this is gold]
+
+
