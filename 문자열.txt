@@ -1,2 +1,8 @@
 문자열 형변환
 str()
+
+list tuple 문자열로 만들려면  join을 통해 요소들을 연결해주면 된다.
+
+l = ['a', 'b', 'c']
+
+''.join(reversed(l))  # 'cba'

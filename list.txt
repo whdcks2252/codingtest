@@ -1,3 +1,27 @@
 리스트 길이 구하기
 len()
 
+List 역순으로 읽어오는 루프
+
+물론 흔치 않지만, 종종 데이터 값들을 리스트에 저장하고 그 값을 역으로 루프를 돌리는 경우가 있습니다. 그럴 경우는 저는 다음과 같은 형태로 코드를 돌렸을 것입니다. 
+
+#Made by Appia Example 
+ 
+my_list = [1,2,3,4,5]
+ 
+for item in my_list[::-1]: #[::-1] 역으로 슬라이싱
+ 
+    print(item)
+ 
+""" 
+#Result :
+5
+4
+3
+2
+1
+"""
+
+
+
+https://mimah.tistory.com/entry/Python-List-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1slicng
