@@ -6,3 +6,9 @@ list tuple 문자열로 만들려면  join을 통해 요소들을 연결해주�
 l = ['a', 'b', 'c']
 
 ''.join(reversed(l))  # 'cba'
+
+문자열 길이
+len()
+
+readline() 에 rstrip() 함수를 붙여주면 개행을 제거해 준다.
+str = stdin.readline().rstrip()
