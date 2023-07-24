@@ -1,0 +1,32 @@
+import sys
+
+def fun(str):
+    arr=0
+    for i in str:
+        arr=arr+1
+    return arr
+
+num=str(sys.stdin.readline().strip())
+
+arr=list()
+arr2=list()
+place=0
+
+for i in range(ord('a'),ord('z')+1):
+    place=0
+    for j in num:
+        if i == ord(j):
+            arr2.append(place)
+            break
+        else:            
+            place=place+1
+          
+    if place==len(num):
+        arr2.append(-1)
+    
+
+for i in arr2:
+    print(i,end=" ")
+
+
+
